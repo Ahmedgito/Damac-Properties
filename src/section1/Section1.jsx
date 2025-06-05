@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import LandvideoFile from "../assets/videos/video.mp4";
 import PortvideoFile from "../assets/videos/videomob.mp4";
 import posterImage from "../assets/images/section1/placeholder.webp";
-import Logo from "../assets/images/section1/logo.svg"; // Assuming this is an SVG file
+import Logo from "../assets/images/section1/logo.svg"; 
 
 export default function Section1() {
   const [videoSrc, setVideoSrc] = useState(LandvideoFile);
